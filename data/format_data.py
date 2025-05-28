@@ -30,7 +30,7 @@ for i in range(1,32):
 for i in range(1, len(lines)): 
     #split into seperate dates
     temp = lines[i].split(",")
-    temp_2 = temp[1].split("/")
+    temp_2 = temp[0].split("/")
     date = temp_2[1]
     if temp[1] == "M":
         borough = "Manhattan"
@@ -43,7 +43,7 @@ for i in range(1, len(lines)):
     elif temp[1] == "S":
         borough = "Staten Island"
     gender = temp[2]
-    race = temp[3]
+    race = temp[3].strip()
     #define the borough dictonary
     if borough not in Jan[date]:
         Jan[date][borough] = {}

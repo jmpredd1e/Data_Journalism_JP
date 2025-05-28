@@ -1,0 +1,793 @@
+{
+    "01": {
+        "Brooklyn": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Queens": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Manhattan": {
+            "BLACK": {
+                "Men": 0,
+                "Women": 1,
+                "Total": 1
+            }
+        },
+        "Bronx": {
+            "BLACK HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            },
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "02": {
+        "Bronx": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Brooklyn": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "03": {
+        "Manhattan": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Bronx": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Brooklyn": {
+            "BLACK HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "04": {
+        "Manhattan": {
+            "WHITE": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            },
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Queens": {
+            "ASIAN / PACIFIC ISLANDER": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Bronx": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "05": {
+        "Brooklyn": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "06": {
+        "Manhattan": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "07": {
+        "Brooklyn": {
+            "BLACK": {
+                "Men": 2,
+                "Women": 0,
+                "Total": 2
+            }
+        },
+        "Manhattan": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 1,
+                "Total": 2
+            }
+        },
+        "Bronx": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 2,
+                "Total": 3
+            },
+            "BLACK HISPANIC": {
+                "Men": 0,
+                "Women": 1,
+                "Total": 1
+            }
+        }
+    },
+    "08": {
+        "Queens": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Brooklyn": {
+            "BLACK": {
+                "Men": 3,
+                "Women": 0,
+                "Total": 3
+            },
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "09": {
+        "Brooklyn": {
+            "BLACK": {
+                "Men": 3,
+                "Women": 0,
+                "Total": 3
+            }
+        }
+    },
+    "10": {
+        "Queens": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Manhattan": {
+            "BLACK": {
+                "Men": 0,
+                "Women": 1,
+                "Total": 1
+            }
+        },
+        "Brooklyn": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "11": {
+        "Staten Island": {
+            "AMERICAN INDIAN/ALASKAN NATIVE": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Bronx": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Manhattan": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "12": {
+        "Brooklyn": {
+            "BLACK": {
+                "Men": 2,
+                "Women": 0,
+                "Total": 2
+            },
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Bronx": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 1,
+                "Total": 2
+            },
+            "BLACK HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Staten Island": {
+            "WHITE HISPANIC": {
+                "Men": 0,
+                "Women": 1,
+                "Total": 1
+            }
+        }
+    },
+    "13": {
+        "Bronx": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            },
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            },
+            "BLACK HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "14": {
+        "Brooklyn": {
+            "BLACK": {
+                "Men": 0,
+                "Women": 1,
+                "Total": 1
+            }
+        },
+        "Bronx": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            },
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Staten Island": {
+            "BLACK": {
+                "Men": 0,
+                "Women": 1,
+                "Total": 1
+            }
+        }
+    },
+    "15": {
+        "Staten Island": {
+            "BLACK": {
+                "Men": 0,
+                "Women": 1,
+                "Total": 1
+            }
+        },
+        "Bronx": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            },
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Manhattan": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "16": {
+        "Brooklyn": {
+            "BLACK": {
+                "Men": 2,
+                "Women": 0,
+                "Total": 2
+            }
+        },
+        "Manhattan": {
+            "WHITE": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            },
+            "BLACK": {
+                "Men": 2,
+                "Women": 0,
+                "Total": 2
+            },
+            "BLACK HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Staten Island": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Queens": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "17": {
+        "Queens": {
+            "ASIAN / PACIFIC ISLANDER": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Manhattan": {
+            "WHITE HISPANIC": {
+                "Men": 2,
+                "Women": 0,
+                "Total": 2
+            }
+        },
+        "Brooklyn": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Bronx": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "18": {
+        "Manhattan": {
+            "ASIAN / PACIFIC ISLANDER": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Queens": {
+            "BLACK HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            },
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Bronx": {
+            "BLACK": {
+                "Men": 0,
+                "Women": 1,
+                "Total": 1
+            },
+            "BLACK HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "19": {
+        "Staten Island": {
+            "ASIAN / PACIFIC ISLANDER": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Queens": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Bronx": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "20": {
+        "Manhattan": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Bronx": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Brooklyn": {
+            "BLACK": {
+                "Men": 2,
+                "Women": 0,
+                "Total": 2
+            }
+        }
+    },
+    "21": {
+        "Brooklyn": {
+            "WHITE": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Bronx": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Manhattan": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "22": {
+        "Queens": {
+            "BLACK": {
+                "Men": 0,
+                "Women": 1,
+                "Total": 1
+            },
+            "WHITE": {
+                "Men": 2,
+                "Women": 0,
+                "Total": 2
+            }
+        },
+        "Bronx": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "23": {
+        "Brooklyn": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 1,
+                "Total": 2
+            }
+        }
+    },
+    "24": {
+        "Manhattan": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 1,
+                "Total": 2
+            }
+        },
+        "Queens": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Brooklyn": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "25": {
+        "Bronx": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Queens": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Brooklyn": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "26": {
+        "Brooklyn": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            },
+            "BLACK": {
+                "Men": 2,
+                "Women": 0,
+                "Total": 2
+            }
+        },
+        "Queens": {
+            "BLACK HISPANIC": {
+                "Men": 0,
+                "Women": 1,
+                "Total": 1
+            },
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Staten Island": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Bronx": {
+            "BLACK HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "27": {
+        "Bronx": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 1,
+                "Total": 2
+            },
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Manhattan": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "28": {
+        "Staten Island": {
+            "BLACK": {
+                "Men": 0,
+                "Women": 1,
+                "Total": 1
+            }
+        },
+        "Manhattan": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            },
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Queens": {
+            "WHITE": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Bronx": {
+            "WHITE": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "29": {
+        "Queens": {
+            "ASIAN / PACIFIC ISLANDER": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Brooklyn": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Manhattan": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 1,
+                "Total": 2
+            }
+        },
+        "Bronx": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 1,
+                "Total": 2
+            },
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "30": {
+        "Manhattan": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Brooklyn": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Bronx": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            },
+            "BLACK HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Queens": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            },
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    },
+    "31": {
+        "Queens": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Bronx": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            },
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Brooklyn": {
+            "BLACK": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            },
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        },
+        "Staten Island": {
+            "WHITE HISPANIC": {
+                "Men": 1,
+                "Women": 0,
+                "Total": 1
+            }
+        }
+    }
+}
