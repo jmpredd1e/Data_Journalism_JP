@@ -10,6 +10,24 @@
         <h1> 
             Vastly racial proportionalities within NYPD resistance arrests
         </h1>
+
+        <div>
+        <form action="/date" method="GET">
+            <label for="date">Choose a date in January:</label><br>
+            <select name="date" id="date_select">
+                {% for date in dates %}
+                <option value="{{ date }}">{{ date }}</option>
+                {% endfor %}
+            </select>
+      
+            <input type="submit" value="Submit">
+         </form>
+        </div>
+
+
+
         {% endblock %}
+
+        
     </body>
 </html>
