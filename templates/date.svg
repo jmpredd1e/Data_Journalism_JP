@@ -2,6 +2,13 @@
         <!-- Axes -->
         <line x1="50" y1="250" x2="400" y2="250" stroke="black" stroke-width="2"/>
         <line x1="50" y1="250" x2="50" y2="50" stroke="black" stroke-width="2"/>
+        <text x="-50" y="160" transform="rotate(-90 15 150)" font-size="16" font-family="Arial" fill="black">
+        Number of Arrests
+        </text>
+        <text x="225" y="300" font-size="16" font-family="Arial" fill="black" text-anchor="middle">
+        Races
+        </text>
+
 
         <!-- Y-axis ticks -->
         {% for i in range(4) %}
