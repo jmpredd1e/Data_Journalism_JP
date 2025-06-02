@@ -1,6 +1,11 @@
 body{
     background-color: dimgray;
 }
+.error-message {
+    color: red;
+    font-weight: bold;
+    font-size: 50;
+}
 g {
             cursor: pointer;
             transition: fill 0.3s ease;

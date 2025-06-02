@@ -36,6 +36,7 @@
             const boroughGroups = document.querySelectorAll("svg g");
             const boroughInput = document.getElementById("borough_input");
             const submitButton = document.getElementById("submit_button");
+            
 
         boroughGroups.forEach(group => {
             group.addEventListener("click", () => {
@@ -49,9 +50,7 @@
                 boroughInput.value = borough;
 
                 // Enable submit button once a borough is selected
-                if (borough) {
-                    submitButton.disabled = false;
-                }
+                submitButton.disabled = !borough;
 
                 console.log("Selected borough:", borough);
             });

@@ -11,8 +11,12 @@
             Insert Name - Jaiden Preddie
         </h1>
         <h2>
-            {{message}} {{ borough }} on January {{ date }}
-        </h2>
+            {% if borough and date %}
+              {{ message }} {{ borough }} on January {{ date }}
+            {% else %}
+            <span class="error-message">ERROR Please select a borough and a date. ERROR</span>
+            {% endif %}
+          </h2>
         <!-- make an if statment that says if dict = 0 don't do this is its not that thing make the svg-->
         {% if data_dict %}
             {% include 'date.svg' %}
