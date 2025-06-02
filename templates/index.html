@@ -10,8 +10,15 @@
         <h1> 
             Vastly racial proportionalities within NYPD resistance arrests
         </h1>
+        
+        <h2>
+            Click on a borough and select a year
+        </h2>
+        <div id="boroughs">
+            {% include 'NYC_boroughs.svg' %}
+        </div>
+        
 
-        <div>
         <form action="/date" method="GET">
             <label for="date">Choose a date in January:</label><br>
             <select name="date" id="date_select">
@@ -19,12 +26,37 @@
                 <option value="{{ date }}">{{ date }}</option>
                 {% endfor %}
             </select>
-      
+             <input type="hidden" name="borough" id="borough_input">
+
+             <br><br>
             <input type="submit" value="Submit">
          </form>
         </div>
+        <script>
+            const boroughGroups = document.querySelectorAll("svg g");
+            const boroughInput = document.getElementById("borough_input");
+            const submitButton = document.getElementById("submit_button");
 
+        boroughGroups.forEach(group => {
+            group.addEventListener("click", () => {
+                // Remove previous selections
+                boroughGroups.forEach(g => g.classList.remove("selected"));
 
+                // Mark as selected
+                group.classList.add("selected");
+
+                const borough = group.getAttribute("id");
+                boroughInput.value = borough;
+
+                // Enable submit button once a borough is selected
+                if (borough) {
+                    submitButton.disabled = false;
+                }
+
+                console.log("Selected borough:", borough);
+            });
+        });
+        </script>
 
         {% endblock %}
 

@@ -4,9 +4,20 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
     <body>
+        {% extends "base.html" %}
+        {% block title %}Page{% endblock %}
+        {% block content %}
         <h1>
             Insert Name - Jaiden Preddie
         </h1>
+        <h2>
+            {{message}} {{ borough }} on January {{ date }}
+        </h2>
+        <!-- make an if statment that says if dict = 0 don't do this is its not that thing make the svg-->
+        {% if data_dict %}
+            {% include 'date.svg' %}
+        {% endif %}
 
+        {% endblock %}
     </body>
 </html>

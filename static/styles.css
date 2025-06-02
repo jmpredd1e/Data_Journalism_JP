@@ -1,3 +1,15 @@
 body{
     background-color: dimgray;
 }
+g {
+            cursor: pointer;
+            transition: fill 0.3s ease;
+        }
+
+        g.selected path {
+            fill: orange;
+        }
+
+        g:hover path {
+            fill: #ffa;
+        }

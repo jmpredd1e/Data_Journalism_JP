@@ -1,0 +1,37 @@
+  <svg width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+        <!-- Axes -->
+        <line x1="50" y1="250" x2="400" y2="250" stroke="black" stroke-width="2"/>
+        <line x1="50" y1="250" x2="50" y2="50" stroke="black" stroke-width="2"/>
+
+        <!-- Y-axis ticks -->
+        {% for i in range(4) %}
+            <line x1="45" y1="{{ 250 - i*50 }}" x2="50" y2="{{ 250 - i*50 }}" stroke="black" />
+            <text x="30" y="{{ 255 - i*50 }}" font-size="12">{{ i }}</text>
+        {% endfor %}
+
+        <!-- Bars grouped by race -->
+        {% set x_start = 80 %}
+        {% set race_colors = ['#4682B4', '#FFA07A', '#8A2BE2', '#3CB371', '#DAA520'] %}
+        {% for race, values in data_dict.items() %}
+            {% set men = values.get('Men', 0) %}
+            {% set women = values.get('Women', 0) %}
+            {% set x_men = x_start %}
+            {% set x_women = x_start + 20 %}
+            {% set bar_height_men = men * 50 %}
+            {% set bar_height_women = women * 50 %}
+            {% set color = race_colors[loop.index0 % race_colors|length] %}
+            {% set x_offset = loop.index0 * 100 %}
+
+            <!-- Men bar -->
+            
+            <rect x="{{ 80 + x_offset }}" y="{{ 250 - bar_height_men }}" width="15" height="{{ bar_height_men }}" fill="{{ color }}" />
+            <text x="{{ 80 + x_offset }}" y="{{ 245 - bar_height_men }}" font-size="10">{{ men }}</text>
+            <text x="{{ 80 + x_offset + 7.5 }}" y="265" font-size="9" text-anchor="middle">M</text>
+
+            <rect x="{{ 100 + x_offset }}" y="{{ 250 - bar_height_women }}" width="15" height="{{ bar_height_women }}" fill="{{ color }}" fill-opacity="0.6" />
+            <text x="{{ 100 + x_offset }}" y="{{ 245 - bar_height_women }}" font-size="10">{{ women }}</text>
+            <text x="{{ 100 + x_offset + 7.5 }}" y="265" font-size="9" text-anchor="middle">F</text>
+
+            <text x="{{ 80 + x_offset }}" y="280" font-size="10">{{ race }}</text>
+        {% endfor %}
+    </svg>
