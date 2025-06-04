@@ -1276,4 +1276,10 @@
 </g>
 <sodipodi:namedview  objecttolerance="10" pagecolor="#ffffff" borderopacity="1" inkscape:cy="247.2" inkscape:cx="250" guidetolerance="10" bordercolor="#666666" gridtolerance="10" inkscape:zoom="1.5230583" showgrid="false" id="namedview138" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1680" inkscape:window-height="1000" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="katman_1">
 	</sodipodi:namedview>
+{% for i in range(0,6,1) %}
+	<rect width="50" height="50" x="10" y="{{ 100 + i*50 }}" fill="hsl(240, 100%, {{i*20}}%)" stroke-width="0" />
+
+   <text x="100" y="{{385 - i*50 }}" font-size="20" stroke-width="2">{{100*i/5}}</text>
+
+{% endfor %}
 </svg>

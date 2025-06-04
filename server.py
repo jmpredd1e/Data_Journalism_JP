@@ -45,23 +45,60 @@ def about():
 
 @app.route('/date')
 def date():
-    f = open('data/data.json','r')
-    complete_data = json.load(f)
-    f.close()
+    with open('data/data.json','r') as f:
+        complete_data = json.load(f)
+
     date = request.args.get('date')
     borough = request.args.get('borough')
     s_date = str(date)
     s_borough = str(borough)
+
+    this_dict = {}
+    message = ""
+    interpretation = ""
+
+    # Safe default values in case there's no data
+    micro_rate = 0
+    macro_rate = 0
+
     if s_borough in complete_data[s_date]:
         this_dict = complete_data[s_date][s_borough]
         message = "Here is your data for"
-    if s_borough not in complete_data[s_date]:
-        this_dict = {}
-        message = "Fortunatly nobody was arrested in"
-    print(this_dict)
-    thing = len(this_dict)
-    print(thing)
 
-    return render_template('date.html',date = date, borough = borough, data_dict = this_dict, message = message, length = thing)
+        total_black = this_dict.get("BLACK", {}).get("Total", 0)
+        total_all = sum(r.get("Total", 0) for r in this_dict.values())
+        if total_all > 0:
+            micro_rate = total_black / total_all
 
+        # Compute borough-wide average (macro)
+        all_black, all_total = 0, 0
+        for d in complete_data.values():
+            if s_borough in d:
+                for race, info in d[s_borough].items():
+                    total = info.get("Total", 0)
+                    all_total += total
+                    if race.lower() == "black":
+                        all_black += total
+        if all_total > 0:
+            macro_rate = all_black / all_total
+
+        # Qualitative interpretation
+        diff = micro_rate - macro_rate
+        perc_diff = diff * 100
+
+        if perc_diff > 15:
+            interpretation = "Black individuals were arrested at a rate significantly higher than the borough's norm on this day."
+        elif perc_diff > 5:
+            interpretation = "Black arrests were somewhat elevated compared to the borough's average."
+        elif perc_diff > -5:
+            interpretation = "The rate of Black arrests was roughly in line with the borough's norm."
+        elif perc_diff > -15:
+            interpretation = "Black arrests were somewhat lower than usual for this borough."
+        else:
+            interpretation = "Black arrests were significantly lower than this borough's typical average."
+
+    else:
+        message = "Fortunately, nobody was arrested in"
+
+    return render_template('date.html',date=date,borough=borough,data_dict=this_dict,message=message,interpretation=interpretation,micro_pct=round(micro_rate * 100, 2),macro_pct=round(macro_rate * 100, 2))
 app.run(debug=True)

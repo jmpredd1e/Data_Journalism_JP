@@ -18,10 +18,22 @@
             {% endif %}
           </h2>
         <!-- make an if statment that says if dict = 0 don't do this is its not that thing make the svg-->
+        {% if interpretation %}
+         <p class="interpretation">
+        {{ interpretation }} On this day, Black individuals made up {{ micro_pct }}% of all arrests in {{ borough }},
+        compared to the borough’s typical average of {{ macro_pct }}%.
+        </p>
+        {% endif %}
+
+
         {% if data_dict %}
             {% include 'date.svg' %}
         {% endif %}
 
         {% endblock %}
+
+        <footer>
+            <a href="https://catalog.data.gov/dataset/nypd-arrest-data-year-to-date">Link to my data</a>
+        </footer>
     </body>
 </html>
